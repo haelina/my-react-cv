@@ -1,16 +1,15 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import myCV from "../../documents/cv_hanna_sepanmaa_11_2021.pdf";
 
 export const Cv = () => {
   return (
     <>
       <main>
-        <h2>My cv</h2>
-        <p>That feels like an existential question, don't you think?</p>
+        <Document file={myCV}>
+          <Page pageNumber={1} />
+        </Document>
       </main>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
     </>
   );
 };

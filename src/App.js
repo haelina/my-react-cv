@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
-import { Home } from "./Components/Pages/Home";
-import { Projects } from "./Components/Pages/Projects";
-import { Cv } from "./Components/Pages/Cv";
+import { Home } from "./Components/pages/Home";
+import { Projects } from "./Components/pages/Projects";
+import { Cv } from "./Components/pages/Cv";
 
 function App() {
   let navigate = useNavigate();
@@ -28,7 +28,7 @@ function App() {
           path="*"
           element={
             <main style={{ padding: "1rem" }}>
-              <p>There's nothing here!</p>
+              <p>Whoops. Something went wrong, check page url.</p>
             </main>
           }
         />

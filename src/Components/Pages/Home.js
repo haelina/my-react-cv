@@ -9,9 +9,6 @@ export const Home = () => {
         <p>Here is information about me and my work history.</p>
         <p>Hop in and get to know me better.</p>
       </main>
-      <nav>
-        <Link to="/projects">Projects</Link>
-      </nav>
     </>
   );
 };
