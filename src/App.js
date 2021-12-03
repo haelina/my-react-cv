@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 import { Home } from "./Components/pages/Home";
 import { Projects } from "./Components/pages/Projects";
 import { Cv } from "./Components/pages/Cv";
@@ -14,10 +14,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>CV Hanna Sepänmaa</h1>
+      <header className="App-header">
+        <h1>CV Hanna Sepänmaa</h1>
+      </header>
       <div className="ButtonBar">
         <button onClick={() => handleClick("/")}>Etusivu</button>
-        <button onClick={() => handleClick("/cv")}>CV</button>
+        <button className="buttonStyle" onClick={() => handleClick("/cv")}>
+          CV
+        </button>
         <button onClick={() => handleClick("/projects")}>Projects</button>
       </div>
       <Routes>
