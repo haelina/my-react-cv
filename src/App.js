@@ -32,7 +32,7 @@ function App() {
           path="*"
           element={
             <main style={{ padding: "1rem" }}>
-              <p>Whoops. Something went wrong, check page url.</p>
+              <p>Whoops! Something went wrong, check page url.</p>
             </main>
           }
         />
