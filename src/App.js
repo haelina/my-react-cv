@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import "./styles/App.css";
-import { Home } from "./Components/pages/Home";
-import { Projects } from "./Components/pages/Projects";
-import { Cv } from "./Components/pages/Cv";
+import { Home } from "./Components/Pages/Home";
+import { Projects } from "./Components/Pages/Projects";
+import { Cv } from "./Components/Pages/Cv";
 
 function App() {
   let navigate = useNavigate();
