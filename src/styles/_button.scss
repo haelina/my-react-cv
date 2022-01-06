@@ -1,0 +1,17 @@
+.button_primary {
+  background-color: black;
+  color: white;
+
+  &__active {
+    background-color: blueviolet;
+    color: black;
+  }
+
+  &__inactive {
+    background-color: white;
+  }
+}
+
+.button_primary:hover {
+  transform: scale(1.1);
+}

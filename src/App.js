@@ -4,6 +4,7 @@ import "./Styles.scss";
 import { Home } from "./Components/Pages/Home";
 import { Projects } from "./Components/Pages/Projects";
 import { Cv } from "./Components/Pages/Cv";
+import { NavigationBar } from "./Components/base/NavigationBar";
 
 function App() {
   let navigate = useNavigate();
@@ -17,13 +18,7 @@ function App() {
       <header className="App-header">
         <h1>CV Hanna Sepänmaa</h1>
       </header>
-      <div className="ButtonBar">
-        <button onClick={() => handleClick("/")}>Etusivu</button>
-        <button className="button_primary" onClick={() => handleClick("/cv")}>
-          CV
-        </button>
-        <button onClick={() => handleClick("/projects")}>Projects</button>
-      </div>
+      <NavigationBar handleClick={handleClick}></NavigationBar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
