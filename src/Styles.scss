@@ -1,7 +1,11 @@
 // Import all the style sheets here.
 
+// Base
+@import "styles/_colors";
+@import "styles/_buttons";
+
 // Pages
 @import "styles/Cv";
 
 // Root styles
-@import "/styles/App";
+@import "styles/App";

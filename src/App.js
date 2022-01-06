@@ -19,7 +19,7 @@ function App() {
       </header>
       <div className="ButtonBar">
         <button onClick={() => handleClick("/")}>Etusivu</button>
-        <button className="buttonStyle" onClick={() => handleClick("/cv")}>
+        <button className="button_primary" onClick={() => handleClick("/cv")}>
           CV
         </button>
         <button onClick={() => handleClick("/projects")}>Projects</button>
