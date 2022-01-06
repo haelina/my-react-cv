@@ -13,6 +13,15 @@
   pointer-events: none;
 }
 
+.content {
+  border-top: 5px solid black;
+  border-radius: 10px 10px 0 0;
+}
+
+.navbar {
+  background-color: #4d5158;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <>
       <main>
-        <h2>My projects</h2>
+        <h2>PROJEKTIT</h2>
         <p>That feels like an existential question, don't you think?</p>
       </main>
     </>

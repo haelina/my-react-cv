@@ -19,19 +19,21 @@ function App() {
         <h1>CV Hanna Sepänmaa</h1>
       </header>
       <NavigationBar handleClick={handleClick}></NavigationBar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="cv" element={<Cv />} />
-        <Route
-          path="*"
-          element={
-            <main style={{ padding: "1rem" }}>
-              <p>Whoops! Something went wrong, check page url.</p>
-            </main>
-          }
-        />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="cv" element={<Cv />} />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>Whoops! Something went wrong, check page url.</p>
+              </main>
+            }
+          />
+        </Routes>
+      </div>
     </div>
   );
 }

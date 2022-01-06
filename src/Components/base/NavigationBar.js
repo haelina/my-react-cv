@@ -9,7 +9,7 @@ export const NavigationBar = ({ handleClick }) => {
   };
 
   return (
-    <div className="ButtonBar">
+    <div className="navbar">
       <button
         className={`button_primary ${
           currentPage === "/"
@@ -18,7 +18,7 @@ export const NavigationBar = ({ handleClick }) => {
         }`}
         onClick={() => changePage("/")}
       >
-        Etusivu
+        INFO
       </button>
       <button
         className={`button_primary ${
@@ -38,7 +38,7 @@ export const NavigationBar = ({ handleClick }) => {
         }`}
         onClick={() => changePage("/projects")}
       >
-        Projects
+        PROJEKTIT
       </button>
     </div>
   );
