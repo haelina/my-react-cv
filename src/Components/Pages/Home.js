@@ -4,9 +4,9 @@ export const Home = () => {
   return (
     <>
       <main>
-        <h2>Hi, I am Hanna!</h2>
-        <p>Here is information about me and my work history.</p>
-        <p>Hop in and get to know me better.</p>
+        <h2>Hanna tässä moi!</h2>
+        <p>Tähän tulee infoa minusta.</p>
+        <p>Löytyy projektitiedot ja aikaisempi työhistoriakin.</p>
       </main>
     </>
   );
