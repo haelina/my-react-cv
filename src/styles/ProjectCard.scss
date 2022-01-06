@@ -1,28 +1,41 @@
 .projectcard {
-  border: 2px solid black;
+  border: 5px solid rgba(115, 139, 182, 255);
   padding: 20px;
   margin: 10px 40px;
   border-radius: 5px;
   box-shadow: 1px 4px 4px gray;
   display: flex;
-  background-color: rgba(180, 198, 231, 255);
+  background-color: black;
 
   .leftColumn {
     width: 35%;
     padding: 10px;
     background-color: white;
-    border-bottom: 3px solid rgba(115, 139, 182, 255);
-    border-top: 3px solid rgba(115, 139, 182, 255);
-    border-left: 3px solid rgba(115, 139, 182, 255);
+    border-bottom: 3px solid rgba(180, 198, 231, 255);
+    border-top: 3px solid rgba(180, 198, 231, 255);
+    border-left: 3px solid rgba(180, 198, 231, 255);
   }
 
   .rightColumn {
     width: 65%;
     padding: 15px;
     background-color: white;
-    border-bottom: 3px solid rgba(115, 139, 182, 255);
-    border-top: 3px solid rgba(115, 139, 182, 255);
-    border-right: 3px solid rgba(115, 139, 182, 255);
+    border-bottom: 3px solid rgba(180, 198, 231, 255);
+    border-top: 3px solid rgba(180, 198, 231, 255);
+    border-right: 3px solid rgba(180, 198, 231, 255);
+
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .short {
+      font-style: italic;
+    }
   }
 
   .projectImage {
