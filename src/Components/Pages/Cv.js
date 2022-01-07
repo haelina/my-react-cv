@@ -7,6 +7,7 @@ export const Cv = () => {
   return (
     <>
       <SizeMe
+        monitorWidth
         render={({ size }) => (
           <div className="Pdf">
             <Document file={myCV}>
