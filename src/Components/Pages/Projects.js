@@ -48,11 +48,10 @@ export const Projects = () => {
     <>
       <main>
         <h2>PROJEKTIT</h2>
-        <p>
-          Ohessa muutamia tärkeimpiä projekteja, joita olen tehnyt
-          <br />
-          viime vuosien aikana. Osa on kokonaan itse tekemiäni
-          <br /> ja osa on tehty parin tai projektitiimin kanssa.
+        <p className="projectintro">
+          Ohessa muutamia tärkeimpiä projekteja, joita olen tehnyt viime vuosien
+          aikana. Osa on kokonaan itse tekemiäni ja osa on tehty parin tai
+          projektitiimin kanssa.
           <br />
           <br />
         </p>
