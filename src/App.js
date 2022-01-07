@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import "./Styles.scss";
 import { Home } from "./Components/Pages/Home";
@@ -8,6 +8,10 @@ import { NavigationBar } from "./Components/base/NavigationBar";
 
 function App() {
   let navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/");
+  }, []);
 
   function handleClick(pageName) {
     navigate(pageName);
