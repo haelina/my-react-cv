@@ -28,6 +28,20 @@ export const Projects = () => {
       `,
       img: require("./../../images/app1.jpg").default,
     },
+    {
+      id: 3,
+      title: "MeDoDodo Todo-app",
+      date: "Joulukuu 2020",
+      github: "https://github.com/salter19/MeDoDodo-back",
+      heroku: "https://tamk-4a00ez62-3001-group06.herokuapp.com/",
+      short: "Tekniikat: node.js, react.js",
+      description: `MeDoDodo on todo-app, johon voi lisätä tehtävämerkintöjä ja niitä voi
+      tarkastella viikkonäkymässä tai kategoria-näkymässä. Projekti on tehty parityönä
+      TAMKin backend- ja frontend-kursseja varten. Githubissa on myöskin fronttirepo osoitteessa
+      https://github.com/salter19/MedoDodo-front
+      `,
+      img: require("./../../images/dodo.jpg").default,
+    },
   ];
   return (
     <>
