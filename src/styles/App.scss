@@ -1,7 +1,7 @@
 .App {
   margin-top: 0;
   text-align: center;
-  background-color: #ebebeb;
+  background-color: #4d5158;
   min-height: 100vh;
   max-width: 100vw;
   width: 100%;
@@ -18,6 +18,9 @@
   border-top: 5px solid black;
   border-radius: 10px 10px 0 0;
   padding-bottom: 30px;
+  background-color: #ebebeb;
+  overflow: hidden;
+  min-height: 75vh;
 }
 
 .navbar {
