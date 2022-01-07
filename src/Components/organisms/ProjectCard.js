@@ -24,7 +24,7 @@ export const ProjectCard = ({
           Github: <a href={github}>{github}</a>
         </p>
         <p className="short">{short}</p>
-        <p>{description}</p>
+        <p className="description">{description}</p>
       </div>
     </div>
   );
