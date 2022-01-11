@@ -12,7 +12,11 @@ export const ProjectCard = ({
   return (
     <div className="projectcard">
       <div className="leftColumn">
-        <img className="projectImage" src={img} alt={title} width="90%"></img>
+        {img ? (
+          <img className="projectImage" src={img} alt={title} width="90%"></img>
+        ) : (
+          <p className="noimage">No image available</p>
+        )}
       </div>
       <div className="rightColumn">
         <h2>{title}</h2>

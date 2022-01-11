@@ -17,6 +17,18 @@ export const Projects = () => {
     },
     {
       id: 2,
+      title: "CleanBuddy siivouspalvelu",
+      date: "Kevät 2021",
+      github: "https://github.com/haelina/CleanerServiceProject",
+      heroku: "https://clean-buddy.herokuapp.com/",
+      short: "Tekniikat: node.js, react.js, mysql",
+      description: `CleanBuddy on sovellus, jossa siivousyritykset voivat esitellä
+      osaamistaan ja myydä kotitalouksille siivouspalveluja.
+      `,
+      img: require("./../../images/clean1.jpg").default,
+    },
+    {
+      id: 3,
       title: "WeatherApp",
       date: "Toukokuu 2021",
       github: "https://github.com/haelina/WeatherApp",
@@ -29,7 +41,7 @@ export const Projects = () => {
       img: require("./../../images/app1.jpg").default,
     },
     {
-      id: 3,
+      id: 4,
       title: "MeDoDodo Todo-app",
       date: "Joulukuu 2020",
       github: "https://github.com/salter19/MeDoDodo-back",
@@ -42,6 +54,18 @@ export const Projects = () => {
       osoitteessa https://github.com/salter19/MedoDodo-front
       `,
       img: require("./../../images/dodo.jpg").default,
+    },
+    {
+      id: 5,
+      title: "Lotto-sovellus",
+      date: "Lokakuu 2019",
+      github: "https://github.com/haelina/lotto-app",
+      heroku: "",
+      short: "Tekniikat: java",
+      description: `Ensimmäisen kouluvuoden syksynä tehty Lotto-sovellus Javan alkeiden
+      kurssia varten.
+      `,
+      img: "",
     },
   ];
   return (
