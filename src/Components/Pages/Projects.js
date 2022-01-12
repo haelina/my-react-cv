@@ -17,18 +17,33 @@ export const Projects = () => {
     },
     {
       id: 2,
+      title: "FollowMe-app",
+      date: "Syksy 2021",
+      github: "https://github.com/haelina/follow-me-app",
+      heroku: "https://follow-me2.herokuapp.com/",
+      short: "Tekniikat: Spring Boot, Thymeleaf, Postgres",
+      description: `FollowMe on Spring Bootilla toteutettu sovellus, jossa käyttäjät voivat
+      julkaista postauksia ja lisätä kuvia, sekä kommentoida ja tykätä muiden käyttäjien
+      kuvista ja julkaisuista. Projekti on tehty Helsingin avoimen yliopiston mooc-kurssia
+      "Web-palvelinohjelmointi Java 2021"  varten.
+      `,
+      img: require("./../../images/fol2.jpg").default,
+    },
+    {
+      id: 3,
       title: "CleanBuddy siivouspalvelu",
       date: "Kevät 2021",
       github: "https://github.com/haelina/CleanerServiceProject",
       heroku: "https://clean-buddy.herokuapp.com/",
       short: "Tekniikat: node.js, react.js, mysql",
       description: `CleanBuddy on sovellus, jossa siivousyritykset voivat esitellä
-      osaamistaan ja myydä kotitalouksille siivouspalveluja.
+      osaamistaan ja myydä kotitalouksille siivouspalveluja. CleanBuddy on tehty kolmen hengen
+      tiimissä TAMKin "Ohjelmistotuotannon projekti" -kurssia varten.
       `,
       img: require("./../../images/clean1.jpg").default,
     },
     {
-      id: 3,
+      id: 4,
       title: "WeatherApp",
       date: "Toukokuu 2021",
       github: "https://github.com/haelina/WeatherApp",
@@ -41,7 +56,7 @@ export const Projects = () => {
       img: require("./../../images/app1.jpg").default,
     },
     {
-      id: 4,
+      id: 5,
       title: "MeDoDodo Todo-app",
       date: "Joulukuu 2020",
       github: "https://github.com/salter19/MeDoDodo-back",
@@ -56,7 +71,7 @@ export const Projects = () => {
       img: require("./../../images/dodo.jpg").default,
     },
     {
-      id: 5,
+      id: 6,
       title: "Lotto-sovellus",
       date: "Lokakuu 2019",
       github: "https://github.com/haelina/lotto-app",
