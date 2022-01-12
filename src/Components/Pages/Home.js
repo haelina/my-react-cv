@@ -3,9 +3,9 @@ import * as React from "react";
 export const Home = () => {
   return (
     <>
-      <main>
+      <main className="homepage">
         <h2>Hanna tässä moi!</h2>
-        <p>
+        <p className="intro">
           Tervetuloa tutustumaan mun työhistoriaan ja projekteihin, joissa oon
           ollut mukana. Suurin osa projekteistani pyörii myös Herokussa, joten
           niiden toimintaa on helppo vilkaista nopeasti.
@@ -16,18 +16,17 @@ export const Home = () => {
           2011 suuntasin Tampereen seudulle ja viihdyn nykyään Kangasalla.
           <br />
           <br />
-          Olen kissaihminen, rakastan hidasta arkea ja omassa tahdissa
-          puuhastelua, sekä luonnossa oleilua. Hyvinvointi ja mielekäs tekeminen
-          ovat nousseet viime vuosina elämässäni tärkeiksi teemoiksi, ja
-          rentoudun parhaiten siivoamalla, lukemalla kirjaa tai harrastamalla
-          liikuntaa.
+          Olen kissaihminen, rakastan hidasta arkea, omassa tahdissa puuhastelua
+          ja luonnossa oleilua. Hyvinvointi ja mielekäs tekeminen ovat nousseet
+          viime vuosina elämässäni tärkeiksi teemoiksi, ja rentoudun parhaiten
+          siivoamalla, lukemalla kirjaa tai harrastamalla liikuntaa.
           <br />
           <br />
           Luonteeltani olen rauhallinen ja järjestelmällinen. Olen aina pitänyt
           matematiikasta ja matematiikka on myös yksi vahvoista puolistani.
           Tästä on usein apua erilaisten ongelmien ratkaisussa. Asioiden
-          aikataulutuksessa olen erityisen hyvä, sillä tehtävät on mielestäni
-          parempi hoitaa ajallaan ilman suurta stressiä.
+          aikataulutuksessa ja priorisoinnissa olen erityisen hyvä, sillä
+          tehtävät on mielestäni parempi hoitaa ajallaan ilman suurta stressiä.
         </p>
         <h4>Työhistoria?</h4>
         <p className="hometext">
@@ -36,10 +35,11 @@ export const Home = () => {
           (Veljekset Keskinen Oy ja Siwa/Valintatalo). Lukion jälkeen perustin
           naisten alusvaatteisiin erikoistuneen verkkokaupan, jota pyöritin
           päätoimisesti noin kahdeksan vuoden ajan ja sen jälkeen vielä
-          sivutoimisesti muiden töiden ohessa. Vuonna 2015 elämä vei siivousalan
-          töihin, jotka lopetin vuonna 2019 kun raskaan fyysisen työn tekeminen
-          kävi mahdottomaksi. Alanvaihto tuli ajankohtaiseksi ja 2019 pääsin
-          Tampereen ammattikorkeakouluun opiskelemaan tietojenkäsittelyä.
+          sivutoimisesti muutamia vuosia muiden töiden ohessa. Vuonna 2015 elämä
+          vei siivousalan töihin, jotka lopetin vuonna 2019 kun raskaan fyysisen
+          työn tekeminen kävi mahdottomaksi. Alanvaihto tuli ajankohtaiseksi ja
+          2019 pääsin Tampereen ammattikorkeakouluun opiskelemaan
+          tietojenkäsittelyä.
         </p>
         <h4>Entäs tulevaisuus?</h4>
         <p className="hometext">
@@ -49,6 +49,8 @@ export const Home = () => {
           paikkariippumattomasta työstä, jota voisin tehdä mistäpäin Suomea
           vain.
         </p>
+        <br />
+        <br />
       </main>
     </>
   );
