@@ -88,6 +88,10 @@ export const Projects = () => {
       <main>
         <h2>PROJEKTIT</h2>
         <p className="projectintro">
+          Github:{" "}
+          <a href="https://github.com/haelina">https://github.com/haelina</a>
+          <br />
+          <br />
           Ohessa muutamia tärkeimpiä projekteja, joita olen tehnyt viime vuosien
           aikana. Osa on kokonaan itse tekemiäni ja osa on tehty parin tai
           projektitiimin kanssa.
