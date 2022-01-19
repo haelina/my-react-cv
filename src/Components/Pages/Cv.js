@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import myCV from "../../documents/cv_hanna_sepanmaa_11_2021.pdf";
+import myCV from "../../documents/cv_hanna_sepanmaa_2022.pdf";
 import { SizeMe } from "react-sizeme";
 
 export const Cv = () => {
